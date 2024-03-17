@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".BienvenidaActivity">
+
+    <ImageView
+        android:id="@+id/ImagenIngreso"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:scaleType="center"
+        />
+
+    <TextView
+        android:id="@+id/TextoIngreso"
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="80dp"
+        android:gravity="center"
+        android:text="TextoIngreso" />
+</LinearLayout>
